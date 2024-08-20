@@ -1,0 +1,22 @@
+$"{}" = just the backtick for c# 
+@"" = to write without worrying about \ 
+
+++value = increment then output the value
+value++ = output the current value before increment
+
+c# follows pemdas
+
+decimal celcius = ((decimal)fahrenheit - 32) *5/9; === atleast convert one value to decimal to output decimal, use(decimal) for variables
+
+decimal celcius = (fahrenheit - 32m) *(5m/9m); ===or just put m(decimal) in all values
+
+stateful classes =needs 'Class variable = new(); variable.method(arguments);'
+
+break=exit switch, loop
+return=exit function method
+
+Convert.ToInt32(value1)=convert and round decimals to int
+
+When using += always have accumulator, and new value holder 'accumulator+=newValueHolder'
+
+>when performing operations w/ different numerical data types, perform operation first before converting
