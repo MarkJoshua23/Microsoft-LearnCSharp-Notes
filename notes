@@ -20,3 +20,6 @@ Convert.ToInt32(value1)=convert and round decimals to int
 When using += always have accumulator, and new value holder 'accumulator+=newValueHolder'
 
 >when performing operations w/ different numerical data types, perform operation first before converting
+
+>you can assign default values to method parameters:
+void RSVP(string name, int partySize = 1, string allergies = "none", bool inviteOnly = true)
