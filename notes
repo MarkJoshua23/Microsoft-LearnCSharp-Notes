@@ -1,3 +1,6 @@
+ASYNC AWAIT:
+await something() - the await will suspend any codes inside the async function until it is resolved, remember ONLY CODES INSIDE THE FUNCTION the outside codes work continuously
+
 $"{}" = just the backtick for c# 
 @"" = to write without worrying about \ 
 
